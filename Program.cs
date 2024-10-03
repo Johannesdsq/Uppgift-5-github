@@ -2,9 +2,10 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Kalkylator");
-        Console.WriteLine("Välj en operation (+, -, , /):");
-        char operation = Console.ReadKey().KeyChar;
+        Console.WriteLine("Kalkylator"); // här skrivs titeln ut på programmet
+        Console.WriteLine("Välj en operation (+, -, , /):"); // Programmet ber användaren välja en operation
+        char operation = Console.ReadKey().KeyChar; //upptar  den valda operationen
+        Console.WriteLine(); // går till nästa rad
 
         Console.WriteLine("\nAnge första talet:");
         double num1 = Convert.ToDouble(Console.ReadLine());
@@ -14,7 +15,7 @@
 
         double result;
 
-        //testhhhgh
+        
 
         switch (operation)
         {
