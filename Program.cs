@@ -14,7 +14,7 @@
 
         double result;
 
-        //testhhhghh
+        //testhhhgh
 
         switch (operation)
         {
